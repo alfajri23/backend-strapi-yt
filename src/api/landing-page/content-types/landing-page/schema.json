@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Dinamic": {
+      "type": "dynamiczone",
+      "components": [
+        "home.hero",
+        "home.product",
+        "home.about-us"
+      ]
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.hero"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_aboutuses",
+  "info": {
+    "displayName": "AboutUs",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
