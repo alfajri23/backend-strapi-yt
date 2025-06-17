@@ -6,7 +6,7 @@ services:
     container_name: strapi-mysql-yt2
     restart: unless-stopped
     ports:
-      - "1000:3306"
+      - "1001:3306"
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 5s
